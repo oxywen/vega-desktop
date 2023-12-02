@@ -1,0 +1,1 @@
+import{o as s,c as n}from"./index-ed420347.js";const a=(e,t)=>{const o=e.__vccOpts||e;for(const[_,c]of t)o[_]=c;return o},r={},f={class:"vega-desktop"};function d(e,t){return s(),n("div",f)}const i=a(r,[["render",d],["__scopeId","data-v-fafdf2bb"]]);export{i as default};
