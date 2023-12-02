@@ -1,0 +1,32 @@
+{
+  "image": [
+    {
+      "path": "@/assets/wallpaper/fresh girl.jpg",
+      "name": "麻花辫清新女孩"
+    },
+    {
+      "path": "@/assets/wallpaper/pink sakura.jpg",
+      "name": "粉色樱花"
+    },
+    {
+      "path": "@/assets/wallpaper/the alps.jpg",
+      "name": "阿尔卑斯山脉风景"
+    },
+    {
+      "path": "@/assets/wallpaper/lavender fields art.jpg",
+      "name": "薰衣草田艺术壁纸"
+    },
+    {
+      "path": "@/assets/wallpaper/anime room with city view.jpg",
+      "name": "动漫房，可欣赏城市"
+    },
+    {
+      "path": "@/assets/wallpaper/beautiful comets in the sky.jpg",
+      "name": "天空中美丽的彗星"
+    },
+    {
+      "path": "@/assets/wallpaper/blue archive back shadow.jpg",
+      "name": "蔚蓝档案小女孩背影"
+    }
+  ]
+}
