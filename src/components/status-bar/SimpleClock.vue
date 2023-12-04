@@ -1,6 +1,6 @@
 <template>
   <span class="simple-clock">
-    <i18n-d tag="span" :value="datetime" :format="{ key: 'simple' }">
+    <i18n-d tag="span" :value="datetime" format="simple">
       <template #literal="props">
         <span class="literal">{{ props.literal }}</span>
       </template>
