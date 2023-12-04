@@ -1,10 +1,14 @@
 <template>
-  <div class="vega-desktop"></div>
+  <div class="vega-desktop">
+    <StatusBar />
+  </div>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import StatusBar from '@/components/status-bar/StatusBar.vue'
+</script>
 
-<style scoped lang="less">
+<style lang="less">
 .vega-desktop {
   width: 100%;
   height: 100%;
@@ -12,7 +16,7 @@
   min-height: 600px;
   overflow: hidden;
   font-size: 16px;
-  background-image: url('@/assets/wallpaper/fresh girl.jpg');
+  background-image: url('@/assets/wallpaper/beautiful comets in the sky.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

@@ -12,6 +12,27 @@ const i18n = createI18n({
   messages: {
     'zh-CN': zhCN,
     'en-US': enUS
+  },
+  datetimeFormats: {
+    'zh-CN': {
+      simple: {
+        month: 'short',
+        day: 'numeric',
+        weekday: 'short',
+        hour: 'numeric',
+        minute: 'numeric',
+        second: 'numeric'
+      }
+    },
+    'en-US': {
+      simple: {
+        month: 'short',
+        day: 'numeric',
+        weekday: 'short',
+        hour: 'numeric',
+        minute: 'numeric'
+      }
+    }
   }
 })
 
