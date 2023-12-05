@@ -1,6 +1,6 @@
 <template>
   <div class="vega-status-bar flex-row">
-    <div class="system-menu-btn bar-btn flex-row">
+    <div class="system-menu-btn bar-item bar-btn flex-row">
       <svg
         viewBox="0 0 1024 1024"
         version="1.1"
@@ -16,31 +16,21 @@
       </svg>
     </div>
     <div class="left-fixed flex-row">
-      <div class="search-btn bar-btn">
+      <div class="bar-item bar-btn">
+        <TaskManager />
+      </div>
+      <div class="bar-item bar-btn">
         <BarLineSearch />
+      </div>
+      <div class="bar-item">
+        <LineLyric />
       </div>
     </div>
     <div class="right-fixed flex-row">
-      <div class="control-center bar-btn">
-        <svg
-          viewBox="0 0 1024 1024"
-          version="1.1"
-          xmlns="http://www.w3.org/2000/svg"
-          width="20"
-          height="20"
-        >
-          <path
-            d="M306.89 142.8H717.1c90.62 0.22 163.9 73.87 163.68 164.49-0.22 90.31-73.38 163.46-163.68 163.68H306.89c-90.62-0.22-163.9-73.87-163.68-164.49 0.22-90.3 73.38-163.45 163.68-163.68z m0 246.13c45.31 0 82.04-36.73 82.04-82.04s-36.73-82.04-82.04-82.04-82.04 36.73-82.04 82.04 36.73 82.04 82.04 82.04z"
-            fill="currentColor"
-          ></path>
-          <path
-            d="M306.89 553.02H717.1c90.62 0.22 163.9 73.87 163.68 164.49-0.22 90.31-73.38 163.46-163.68 163.68H306.89c-90.62-0.22-163.9-73.87-163.68-164.49 0.22-90.3 73.38-163.45 163.68-163.68zM717.1 799.15c45.31 0 82.04-36.73 82.04-82.04 0-45.31-36.73-82.04-82.04-82.04s-82.04 36.73-82.04 82.04c0 45.31 36.73 82.04 82.04 82.04z"
-            fill="currentColor"
-            opacity=".3"
-          ></path>
-        </svg>
+      <div class="bar-item bar-btn">
+        <ControlCenter />
       </div>
-      <div class="bar-clock bar-btn">
+      <div class="bar-item bar-btn">
         <SimpleClock />
       </div>
     </div>
@@ -50,6 +40,9 @@
 <script setup lang="ts">
 import SimpleClock from './SimpleClock.vue'
 import BarLineSearch from './BarLineSearch.vue'
+import LineLyric from './LineLyric.vue'
+import ControlCenter from './ControlCenter.vue'
+import TaskManager from './TaskManager.vue'
 </script>
 
 <style lang="less">
@@ -80,9 +73,8 @@ import BarLineSearch from './BarLineSearch.vue'
   .right-fixed {
     height: 100%;
   }
-  .bar-btn {
+  .bar-item {
     height: 100%;
-    padding: 0 0.5rem;
     box-sizing: border-box;
     background-color: transparent;
     color: #ffffff;
@@ -101,6 +93,9 @@ import BarLineSearch from './BarLineSearch.vue'
       background-color: rgba(255, 255, 255, 0.25);
       color: #c396ed;
     }
+  }
+  .bar-btn {
+    padding: 0 0.5rem;
   }
 }
 </style>
