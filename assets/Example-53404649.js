@@ -1,0 +1,1 @@
+import{_ as e}from"./VegaAppWindow.vue_vue_type_style_index_0_lang-e170c914.js";import{d as a,o,i as p}from"./index-90a83807.js";const _=a({__name:"Example",setup(t){return(s,m)=>(o(),p(e,{appName:"抖音",width:"800px",height:"600px",className:"douyin"}))}});export{_ as default};
