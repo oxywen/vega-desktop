@@ -2,5 +2,6 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "GitCommitPlugin.MaxSubjectCharacters": 100,
-  "GitCommitPlugin.ShowEmoji": false
+  "GitCommitPlugin.ShowEmoji": false,
+  "typescript.tsdk": "node_modules/typescript/lib"
 }
