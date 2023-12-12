@@ -2,26 +2,4 @@
 
 一个运行在浏览器中的仅实现了部分UI样式组件的精简版的`操作系统`，基于Vue3.0实现
 
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+V1版本预期把主工程拆分为多个子模块工程，以实现内部应用的第三方开发和动态加载管理。能力不足，暂停实现。
